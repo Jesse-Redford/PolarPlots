@@ -6,6 +6,16 @@ Algorithms and Analytical tools for surface characterization and defect detectio
 
 '''
 
+    import cv2
+    import scipy
+    import numpy as np
+    from scipy.ndimage import rotate
+    import matplotlib.pyplot as plt
+    from scipy.stats import kurtosis, skew, pearson3
+    import time
+    import imutils
+    import math
+
     def Polarshort(a,stp):
 
     limit = int(round(len(a)/np.sqrt(2)/2)) #limit = round(min(M,N)/np.sqrt(2)/2), where M = a.shape[0] N = a.shape[1]
@@ -44,14 +54,9 @@ Algorithms and Analytical tools for surface characterization and defect detectio
     T = np.linspace(0,((2*end_angle)-stp)*np.pi/180,362)
     
     return std_rq_matrix, T
-   
-'''
-
-
-We can call the function above for testing
-
-'''
-
+    
+    
+    
     sq = np.zeros((M,N))
     # places three scratches on the surface
     sq[450:450+100,695:695+10]= 1
@@ -81,5 +86,8 @@ We can call the function above for testing
     plt.grid(which='minor', alpha=0.2)
     plt.grid(which='major', alpha=0.5)
     plt.show
-    
+   
 '''
+
+
+
