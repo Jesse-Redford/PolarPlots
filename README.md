@@ -5,7 +5,8 @@ Algorithms and Analytical tools for surface characterization and defect detectio
 
 
 '''
-def Polarshort(a,stp):
+
+    def Polarshort(a,stp):
 
     limit = int(round(len(a)/np.sqrt(2)/2)) #limit = round(min(M,N)/np.sqrt(2)/2), where M = a.shape[0] N = a.shape[1]
     begining_angle = 0
@@ -50,14 +51,30 @@ def Polarshort(a,stp):
 We can call the function above for testing
 
 '''
+
     sq = np.zeros((M,N))
     # places three scratches on the surface
-sq[450:450+100,695:695+10]= 1
-sq[650:650+100,695:695+10]= 1
-sq[850:850+100,695:695+10]= 1 
+    sq[450:450+100,695:695+10]= 1
+    sq[650:650+100,695:695+10]= 1
+    sq[850:850+100,695:695+10]= 1 
+    
+    Radii,TheataValues = Polarshort(sq, 1);
+
+    #print('Radii',Radii)
+    #print('TheataValues',TheataValues)
+
+    fig = plt.figure(figsize=(10, 10))
+    surface = fig.add_subplot(121)
+    surface.set_title('Surfacemap')
+    surface.imshow(sq)
+
+    polar_plot = fig.add_subplot(122,projection='polar')
+    polar_plot.set_title('Stdev of Rq values versus angle')
+    polar_plot.plot(TheataValues, Radii)
+    plt.show()
 
 
-    plt.scatter(T,std_rq_matrix)
+    plt.scatter(TheataValues,Radii)
     plt.grid(True)
     plt.ylabel('Value')
     plt.xlabel('Angle (Radians)')
