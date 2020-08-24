@@ -5,13 +5,9 @@ This project is in Joint effort with Dr.Mullany from the Mechanical Engineering 
 The scope of the project is to develop a method for characterizing material surfaces and provide a stastitical measure for estimating surface defects and quality using digital imagining. The repository includes beta versions of the desktop app which can be run on any windows machine with a camera. In addition we offer a library of modules that can be used to develop, modify, and integrate polar plotting into specific applications. If you have an application that may benfit from this from of anaylsis and would like to dicuss development options, feel free to contact one of the project contribtors for consulation.
 
 ##### Contributors
-- Jesse Redford | email: jesse.k.redford@gmail.com | https://jessekredford.wixsite.com/jesseredford | 
+- Jesse Redford | PhD student Dept. of Mechanical Engineering UNCC  | email: jesse.k.redford@gmail.com | https://jessekredford.wixsite.com/jesseredford 
+- Bridgit Mullany | Professor Dept. of Mechanical Engineering UNCC  | email: bamullan@uncc.edu | https://coefs.uncc.edu/bamullan/ 
 
-PhD student Dept. of Mechanical Engineering & Engineering Science UNCC 
-
-- Bridgit Mullany | email: bamullan@uncc.edu | https://coefs.uncc.edu/bamullan/ | 
-
-Professor Dept. of Mechanical Engineering & Engineering Science UNCC  
 
 ##### PolarPlot Apps for Windows (requires windows OS and Camera)
 - PolarPlot-v0.exe (avaliable) - basic version of app, capture images from camera stream and generates polar plot
