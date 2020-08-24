@@ -32,7 +32,7 @@ However, in the presence of defects the polar plot should take on some new chara
 
 #### Preformance Reference 
 - Depending on your application and the level of resolution, the chart below outlines the approximate processing time to generate a polar plot for various image sizes.
-<img src=https://github.com/Jesse-Redford/PolarPlots/blob/master/Processing_Analysis_time_vs_image_size.pngwidth" = "1000" height="250">
+<img src=https://github.com/Jesse-Redford/PolarPlots/blob/master/Processing_Analysis_time_vs_image_size.png" width = "1000" height="250">
 
 ##### Research and Development
 - This tool could likley be used in fast pass/fail quality inscpections of textured surfaces. 
