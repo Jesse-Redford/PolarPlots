@@ -6,14 +6,14 @@ The scope of the project is to develop a method for characterizing material surf
 
 ##### Contributors
 - Jesse Redford | PhD student Dept. Mechanical Engineering UNCC | email:jesse.k.redford@gmail.com 
--  https://jessekredford.wixsite.com/jesseredford 
+--  https://jessekredford.wixsite.com/jesseredford 
 - Bridgit Mullany | Professor Dept. Mechanical Engineering UNCC  | email:bamullan@uncc.edu 
--  https://coefs.uncc.edu/bamullan/ 
+--  https://coefs.uncc.edu/bamullan/ 
 
 
 ##### PolarPlot Apps for Windows (requires windows OS and Camera)
 - PolarPlot-v0.exe (avaliable) - basic version of app, capture images from camera stream and generates polar plot
--- PolarPlot-v1.exe (avaliable) - includes realtime filter options, livestream comparision, and ability to take screen shots
+- PolarPlot-v1.exe (avaliable) - includes realtime filter options, livestream comparision, and ability to take screen shots
 - PolarPlot-v3.exe (in development) - integrates FFT filter options for removing low freqency content from image surface 
 - PolarPlot-v4.exe (in development) - allows for time series processing for rolling opperations
 
