@@ -8,9 +8,6 @@ The scope of the project is to develop a method for characterizing material surf
 - Jesse Redford | PhD student Dept. of Mechanical Engineering & Engineering Science UNCC | email: jesse.k.redford@gmail.com 
 - Bridgit Mullany | Professor Dept. of Mechanical Engineering & Engineering Science UNCC  | email: bamullan@uncc.edu 
 
-##### International Standards for Surface Texture
-- https://guide.digitalsurf.com/en/guide-filtration-techniques.html
-
 ##### Requirments
 - Desktop application - windows OS and Camera 
 - API - pip install requirments.txt
@@ -31,13 +28,13 @@ However, in the presence of defects the polar plot should take on some new chara
 - Depending on your application and the level of resolution, the chart below outlines the approximate processing time to generate a polar plot for various image sizes.
 ![PolarPlot](https://github.com/Jesse-Redford/PolarPlots/blob/master/Processing_Analysis_time_vs_image_size.png)
 
+##### International Standards for Surface Texture
+- https://guide.digitalsurf.com/en/guide-filtration-techniques.html
+
 
 ##### Research and Development
-
 - This tool could likley be used in fast pass/fail quality inscpections of textured surfaces. 
-
 - To compensate for lighting conditions and other external factors which may effect the surface image, we are currently integrating various filtering options which can be modifed by the user in realtime. The new versions of the application also displays a comparision of the raw and filiterd images, in addition to there polar plots for comparison.
-
 - Although a model can be trained to detect surface defects, the question remains on wether there is enough information stored in the polar plot for a classifer to have the ability to regenerate what the captured surface looks like using only information from the polarplot.
 
 
