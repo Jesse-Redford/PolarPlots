@@ -14,15 +14,19 @@ The scope of the project is to develop a method for characterizing material surf
 ![PolarPlot](https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface_with_defects.png)
 
 
-# Basic Windows Application
+## Basic Windows Application
+If you want to test our a basic implentation download PolarPlot-v0.exe
 
 
-# Beta Version of Polar Plot App
+## Beta Version of Polar Plot App
+To compensate for lighting conditions and other external factors which may effect the surface image, version 1 of the application includes filtering options which can be modifed by the user in realtime. The new version also displays a comparision of the raw and filiterd images, in addition to there polar plots for comparison.
+Download PolarPlot-v1.exe to use the application. 
 
 
 
 
 # On going Research
+Although a model can be trained to detect surface defects, the question remains on wether there is enough information stored in the polar plot for a classifer to have the ability to regenerate what the captured surface looks like using only information from the polarplot.
 
 
 
