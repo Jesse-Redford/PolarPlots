@@ -8,11 +8,7 @@ The scope of the project is to develop a method for characterizing material surf
 - Jesse Redford | PhD student Dept. of Mechanical Engineering & Engineering Science UNCC | email: jesse.k.redford@gmail.com 
 - Bridgit Mullany | Professor Dept. of Mechanical Engineering & Engineering Science UNCC  | email: bamullan@uncc.edu 
 
-##### Requirments
-- Desktop application - windows OS and Camera 
-- API - pip install requirments.txt
-
-##### Versions of PolarPlot Windows Application 
+##### PolarPlot Apps for Windows (requires windows OS and Camera)
 - PolarPlot-v0.exe (avaliable) - basic version of app, capture images from camera stream and generates polar plot
 - PolarPlot-v1.exe (avaliable) - includes realtime filter options, livestream comparision, and ability to take screen shots
 - PolarPlot-v3.exe (in development) - integrates FFT filter options for removing low freqency content from image surface 
@@ -26,7 +22,11 @@ However, in the presence of defects the polar plot should take on some new chara
 
 <img src="https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface.png" width="375" height="250"> <img src="https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface_with_defects.png" width="375" height="250"> 
 
-<!--  | Real Gussian Surface with 3 vertial scratches, with and without filtering <img src="https://github.com/Jesse-Redford/PolarPlots/blob/master/real_gussian_surface_with_defects.png" width="250" height="250"> -->
+<!--  | Real Gussian Surface with 3 vertial scratches, with and without filtering <img src="https://github.com/Jesse-Redford/PolarPlots/blob/master/real_gussian_surface_with_defects.png" width="250" height="250"> 
+##### Requirments
+- Desktop application - windows OS and Camera 
+- API - pip install requirments.txt
+-->
 
 #### Preformance Reference 
 - Depending on your application and the level of resolution, the chart below outlines the approximate processing time to generate a polar plot for various image sizes.
