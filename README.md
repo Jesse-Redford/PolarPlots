@@ -10,7 +10,8 @@ The scope of the project is to develop a method for characterizing material surf
 
 
 ## Example
-![Fc-SVD algorithm](https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface_with_defects.png)
+![PolarPlot](https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface.png=250x250)
+![PolarPlot](https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface_with_defects.png=250x250)
 
 
 # Basic Windows Application
