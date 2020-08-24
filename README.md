@@ -1,12 +1,12 @@
 # Polar Plot Project
 
-### Project Description
-This project is in Joint effort with Dr.Mullany from the Mechanical Engineering Deparment and the University of North Carolina Charlotte.
-The scope of the project is to develop a method for characterizing material surfaces and provide a stastitical measure for estimating surface defects and quality using digital imagining. The repository includes beta versions of the desktop app which can be run on any windows machine with a camera. In addition we offer a library of modules that can be used to develop, modify, and integrate polar plotting into specific applications. 
-
 ### Contributors
 - Jesse Redford
 - Bridgit Mullany
+
+### Project Description
+This project is in Joint effort with Dr.Mullany from the Mechanical Engineering Deparment and the University of North Carolina Charlotte.
+The scope of the project is to develop a method for characterizing material surfaces and provide a stastitical measure for estimating surface defects and quality using digital imagining. The repository includes beta versions of the desktop app which can be run on any windows machine with a camera. In addition we offer a library of modules that can be used to develop, modify, and integrate polar plotting into specific applications. 
 
 ### Download Beta Versions of PolarPlot Windows Application 
 - PolarPlot-v0.exe - basic version of app, capture images from camera stream and generates polar plot
