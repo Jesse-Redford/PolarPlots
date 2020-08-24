@@ -20,7 +20,7 @@ The scope of the project is to develop a method for characterizing material surf
 Assuming that a surface containing no defects can be described as a gussian surface, the resulting polar plot of this surface should appear as a relativley uniform circle.
 However, in the presence of defects the polar plot should take on some new charactersitic. 
 - Polar Plots | Gussian Surface | Gussian Surface with 3 vertial scratches | Real Gussian Surface with 3 vertial scratches, with and without filtering
-<img src="https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface.png" width="350" height="250"> <img src="https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface_with_defects.png" width="350" height="250"> <img src="https://github.com/Jesse-Redford/PolarPlots/blob/master/real_gussian_surface_with_defects.png" width="250" height="250">
+<img src="https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface.png" width="325" height="250"> <img src="https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface_with_defects.png" width="325" height="250"> <img src="https://github.com/Jesse-Redford/PolarPlots/blob/master/real_gussian_surface_with_defects.png" width="250" height="250">
 
 ##### Preformance Reference 
 Depending on your application and the level of resolution, the chart below outlines the approximate processing time to generate a polar plot for various image sizes.
