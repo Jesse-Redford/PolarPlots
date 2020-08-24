@@ -10,8 +10,8 @@ The scope of the project is to develop a method for characterizing material surf
 
 
 ## Example
-![PolarPlot](https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface.png=250x250)
-![PolarPlot](https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface_with_defects.png=250x250)
+![PolarPlot](https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface.png)
+![PolarPlot](https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface_with_defects.png)
 
 
 # Basic Windows Application
