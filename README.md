@@ -9,13 +9,12 @@ The scope of the project is to develop a method for characterizing material surf
 - Bridgit Mullany
 
 ### Beta Versions of PolarPlot Windows Application
-
 - PolarPlot-v0.exe - basic version of app, capture images from camera stream and generates polar plot
 - PolarPlot-v1.exe - includes realtime filter options, livestream comparision, and ability to take screen shots
 
 ### Preformance Chart Processing Time 
-
-![PolarPlot](https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface.png)
+Depending on your application and the level of resolution, the chart below outlines the approximate processing time to generate a polar plot for various image sizes.
+![PolarPlot](https://github.com/Jesse-Redford/PolarPlots/blob/master/Processing_Analysis_time_vs_image_size.png)
 
 
 
@@ -28,7 +27,6 @@ The scope of the project is to develop a method for characterizing material surf
 - To compensate for lighting conditions and other external factors which may effect the surface image, version 1 of the application includes filtering options which can be modifed by the user in realtime. The new version also displays a comparision of the raw and filiterd images, in addition to there polar plots for comparison.
 
 - Although a model can be trained to detect surface defects, the question remains on wether there is enough information stored in the polar plot for a classifer to have the ability to regenerate what the captured surface looks like using only information from the polarplot.
-
 
 
 
