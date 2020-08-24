@@ -1,16 +1,22 @@
 # Polar Plot Project
 
+## Project Description
+This project is in Joint effort with Dr.Mullany from the Mechanical Engineering Deparment and the University of North Carolina Charlotte.
+The scope of the project is to develop a method for characterizing material surfaces and provide a stastitical measure for estimating surface defects and quality using digital imagining. The repository includes beta versions of the desktop app which can be run on any windows machine with a camera. In addition we offer a library of modules that can be used to develop, modify, and integrate polar plotting into specific applications. 
+
 ## Contributors
 - Jesse Redford
 - Bridgit Mullany
 
-## Project Description
-This project is in Joint effort with Dr.Mullany from the Mechanical Engineering Deparment and the University of North Carolina Charlotte.
-The scope of the project is to develop a method for characterizing material surfaces and provide a stastitical measure for estimating surface defects and quality using digital imagining. The repository includes beta versions of the desktop app which can be run on any windows machine with a camera. In addition we offer a library of modules that can be used to develop and integrate polar plotting into specific specific applications 
-
 
 ## Example
+Assuming that a surface containing no defects can be described as a gussian surface, the resulting polar plot of this surface should appear as a relativley uniform circle.
+However, in the presence of defects the polar plot should take on some new charactersitic.
+
+### Polar Plot of Gussian Surface
 ![PolarPlot](https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface.png)
+
+### Polar Plot of Gussian Surface with 3 vertial scratches
 ![PolarPlot](https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface_with_defects.png)
 
 
