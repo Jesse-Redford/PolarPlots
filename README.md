@@ -1,24 +1,29 @@
 # Polar Plot Project
 
-## Project Description
+### Project Description
 This project is in Joint effort with Dr.Mullany from the Mechanical Engineering Deparment and the University of North Carolina Charlotte.
 The scope of the project is to develop a method for characterizing material surfaces and provide a stastitical measure for estimating surface defects and quality using digital imagining. The repository includes beta versions of the desktop app which can be run on any windows machine with a camera. In addition we offer a library of modules that can be used to develop, modify, and integrate polar plotting into specific applications. 
 
-## Contributors
+### Contributors
 - Jesse Redford
 - Bridgit Mullany
 
-## Basic Windows Application
+### Basic Windows Application
 If you want to test our a basic implentation download PolarPlot-v0.exe
 
 
-## Beta Version of Polar Plot App
+### Beta Version of Polar Plot App
 To compensate for lighting conditions and other external factors which may effect the surface image, version 1 of the application includes filtering options which can be modifed by the user in realtime. The new version also displays a comparision of the raw and filiterd images, in addition to there polar plots for comparison.
 Download PolarPlot-v1.exe to use the application. 
 
 
+### On going Research and Development
+Although a model can be trained to detect surface defects, the question remains on wether there is enough information stored in the polar plot for a classifer to have the ability to regenerate what the captured surface looks like using only information from the polarplot.
 
-## Examples
+
+
+
+## Polar Plot Examples
 Assuming that a surface containing no defects can be described as a gussian surface, the resulting polar plot of this surface should appear as a relativley uniform circle.
 However, in the presence of defects the polar plot should take on some new charactersitic.
 
@@ -29,15 +34,10 @@ However, in the presence of defects the polar plot should take on some new chara
 ![PolarPlot](https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface_with_defects.png)
 
 ### Polar Plot of Real Gussian Surface with 3 vertial scratches, with and without filtering
-![PolarPlot](https://github.com/Jesse-Redford/PolarPlots/blob/master/real_gussian_surface_with_defects.png | width=100)
+![PolarPlot](https://github.com/Jesse-Redford/PolarPlots/blob/master/real_gussian_surface_with_defects.png)
 
 
 
-
-
-
-# On going Research
-Although a model can be trained to detect surface defects, the question remains on wether there is enough information stored in the polar plot for a classifer to have the ability to regenerate what the captured surface looks like using only information from the polarplot.
 
 
 
