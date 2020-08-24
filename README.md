@@ -12,9 +12,11 @@ The scope of the project is to develop a method for characterizing material surf
 - Desktop application - windows OS and Camera 
 - API - pip install requirments.txt
 
-##### Download Beta Versions of PolarPlot Windows Application 
-- PolarPlot-v0.exe - basic version of app, capture images from camera stream and generates polar plot
-- PolarPlot-v1.exe - includes realtime filter options, livestream comparision, and ability to take screen shots
+##### Versions of PolarPlot Windows Application 
+- PolarPlot-v0.exe (avaliable) - basic version of app, capture images from camera stream and generates polar plot
+- PolarPlot-v1.exe (avaliable) - includes realtime filter options, livestream comparision, and ability to take screen shots
+- PolarPlot-v3.exe (in development) - integrates FFT filter options for removing low freqency content from image surface 
+- PolarPlot-v4.exe (in development) - allows for time series processing for rolling opperations
 
 #### Interperation and Examples of PolarPlots for Surface Anaylsis 
 - Assuming that a surface containing no defects can be described as a gussian surface, the resulting polar plot of this surface should appear as a relativley uniform circle.
