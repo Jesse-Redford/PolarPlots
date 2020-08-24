@@ -29,7 +29,7 @@ However, in the presence of defects the polar plot should take on some new chara
 ![PolarPlot](https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface_with_defects.png)
 
 ### Polar Plot of Real Gussian Surface with 3 vertial scratches, with and without filtering
-![PolarPlot](https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface_with_defects.png)
+![PolarPlot](https://github.com/Jesse-Redford/PolarPlots/blob/master/real_gussian_surface_with_defects.png | width=100)
 
 
 
