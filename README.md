@@ -16,6 +16,20 @@ The scope of the project is to develop a method for characterizing material surf
 Depending on your application and the level of resolution, the chart below outlines the approximate processing time to generate a polar plot for various image sizes.
 ![PolarPlot](https://github.com/Jesse-Redford/PolarPlots/blob/master/Processing_Analysis_time_vs_image_size.png)
 
+### Polar Plot Examples
+Assuming that a surface containing no defects can be described as a gussian surface, the resulting polar plot of this surface should appear as a relativley uniform circle.
+However, in the presence of defects the polar plot should take on some new charactersitic. 
+
+- Polar Plot of Gussian Surface
+- Polar Plot of Gussian Surface with 3 vertial scratches
+- Polar Plot of Real Gussian Surface with 3 vertial scratches, with and without filtering
+
+<img src="https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface.png" width="350" height="250"> <img src="https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface_with_defects.png" width="350" height="250"> <img src="https://github.com/Jesse-Redford/PolarPlots/blob/master/real_gussian_surface_with_defects.png" width="250" height="250">
+
+
+### Contact Information
+If you have an application that may benfit from this from of anaylsis and would like to dicuss development options feel free to contact one of the project contribtors for consulation 
+
 
 ### Research and Development
 
@@ -26,14 +40,4 @@ Depending on your application and the level of resolution, the chart below outli
 - Although a model can be trained to detect surface defects, the question remains on wether there is enough information stored in the polar plot for a classifer to have the ability to regenerate what the captured surface looks like using only information from the polarplot.
 
 
-
-## Polar Plot Examples
-Assuming that a surface containing no defects can be described as a gussian surface, the resulting polar plot of this surface should appear as a relativley uniform circle.
-However, in the presence of defects the polar plot should take on some new charactersitic. 
-
-- Polar Plot of Gussian Surface
-- Polar Plot of Gussian Surface with 3 vertial scratches
-- Polar Plot of Real Gussian Surface with 3 vertial scratches, with and without filtering
-
-<img src="https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface.png" width="350" height="250"> <img src="https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface_with_defects.png" width="350" height="250"> <img src="https://github.com/Jesse-Redford/PolarPlots/blob/master/real_gussian_surface_with_defects.png" width="250" height="250">
 
