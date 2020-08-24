@@ -8,8 +8,17 @@ The scope of the project is to develop a method for characterizing material surf
 - Jesse Redford
 - Bridgit Mullany
 
+## Basic Windows Application
+If you want to test our a basic implentation download PolarPlot-v0.exe
 
-## Example
+
+## Beta Version of Polar Plot App
+To compensate for lighting conditions and other external factors which may effect the surface image, version 1 of the application includes filtering options which can be modifed by the user in realtime. The new version also displays a comparision of the raw and filiterd images, in addition to there polar plots for comparison.
+Download PolarPlot-v1.exe to use the application. 
+
+
+
+## Examples
 Assuming that a surface containing no defects can be described as a gussian surface, the resulting polar plot of this surface should appear as a relativley uniform circle.
 However, in the presence of defects the polar plot should take on some new charactersitic.
 
@@ -19,14 +28,10 @@ However, in the presence of defects the polar plot should take on some new chara
 ### Polar Plot of Gussian Surface with 3 vertial scratches
 ![PolarPlot](https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface_with_defects.png)
 
+### Polar Plot of Real Gussian Surface with 3 vertial scratches, with and without filtering
+![PolarPlot](https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface_with_defects.png)
 
-## Basic Windows Application
-If you want to test our a basic implentation download PolarPlot-v0.exe
 
-
-## Beta Version of Polar Plot App
-To compensate for lighting conditions and other external factors which may effect the surface image, version 1 of the application includes filtering options which can be modifed by the user in realtime. The new version also displays a comparision of the raw and filiterd images, in addition to there polar plots for comparison.
-Download PolarPlot-v1.exe to use the application. 
 
 
 
