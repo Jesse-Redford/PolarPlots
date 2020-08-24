@@ -6,8 +6,11 @@ The scope of the project is to develop a method for characterizing material surf
 
 ##### Contributors
 - Jesse Redford | email: jesse.k.redford@gmail.com | https://jessekredford.wixsite.com/jesseredford | 
+
 PhD student Dept. of Mechanical Engineering & Engineering Science UNCC 
+
 - Bridgit Mullany | email: bamullan@uncc.edu | https://coefs.uncc.edu/bamullan/ | 
+
 Professor Dept. of Mechanical Engineering & Engineering Science UNCC  
 
 ##### PolarPlot Apps for Windows (requires windows OS and Camera)
