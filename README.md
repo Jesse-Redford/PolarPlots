@@ -10,6 +10,7 @@ The scope of the project is to develop a method for characterizing material surf
 
 
 ## Example
+![Fc-SVD algorithm](https://github.com/Jesse-Redford/Adpative-SVD/blob/master/fc-SVD%20algorithm.PNG?raw=true)
 
 
 # Basic Windows Application
