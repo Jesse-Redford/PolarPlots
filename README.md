@@ -32,13 +32,12 @@ Assuming that a surface containing no defects can be described as a gussian surf
 However, in the presence of defects the polar plot should take on some new charactersitic.
 
 ### Polar Plot of Gussian Surface
-![PolarPlot](https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface.png)
+<img src="https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface.png" width="250" height="250">
 
 ### Polar Plot of Gussian Surface with 3 vertial scratches
-![PolarPlot](https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface_with_defects.png)
+<img src="https://github.com/Jesse-Redford/PolarPlots/blob/master/gussian_surface_with_defects.png" width="250" height="250">
 
 ### Polar Plot of Real Gussian Surface with 3 vertial scratches, with and without filtering
-![PolarPlot](https://github.com/Jesse-Redford/PolarPlots/blob/master/real_gussian_surface_with_defects.png)
-<img src="https://github.com/Jesse-Redford/PolarPlots/blob/master/real_gussian_surface_with_defects.png" width="400" height="790">
+<img src="https://github.com/Jesse-Redford/PolarPlots/blob/master/real_gussian_surface_with_defects.png" width="250" height="250">
 
 
