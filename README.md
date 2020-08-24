@@ -1,4 +1,4 @@
-# Polar Plot Project
+# PolarPlots
 
 ### Project Description
 This project is in Joint effort with Dr.Mullany from the Mechanical Engineering Deparment and the University of North Carolina Charlotte.
