@@ -5,8 +5,8 @@ This project is in Joint effort with Dr.Mullany from the Mechanical Engineering 
 The scope of the project is to develop a method for characterizing material surfaces and provide a stastitical measure for estimating surface defects and quality using digital imagining. The repository includes beta versions of the desktop app which can be run on any windows machine with a camera. In addition we offer a library of modules that can be used to develop, modify, and integrate polar plotting into specific applications. If you have an application that may benfit from this from of anaylsis and would like to dicuss development options, feel free to contact one of the project contribtors for consulation.
 
 ##### Contributors
-- Jesse Redford | PhD student Dept. of Mechanical Engineering & Engineering Science UNCC | email: jesse.k.redford@gmail.com 
-- Bridgit Mullany | Professor Dept. of Mechanical Engineering & Engineering Science UNCC  | email: bamullan@uncc.edu 
+- Jesse Redford | PhD student Dept. of Mechanical Engineering & Engineering Science UNCC | email: jesse.k.redford@gmail.com | https://jessekredford.wixsite.com/jesseredford
+- Bridgit Mullany | Professor Dept. of Mechanical Engineering & Engineering Science UNCC  | email: bamullan@uncc.edu | https://coefs.uncc.edu/bamullan/
 
 ##### PolarPlot Apps for Windows (requires windows OS and Camera)
 - PolarPlot-v0.exe (avaliable) - basic version of app, capture images from camera stream and generates polar plot
@@ -32,14 +32,16 @@ However, in the presence of defects the polar plot should take on some new chara
 - Depending on your application and the level of resolution, the chart below outlines the approximate processing time to generate a polar plot for various image sizes.
 ![PolarPlot](https://github.com/Jesse-Redford/PolarPlots/blob/master/Processing_Analysis_time_vs_image_size.png)
 
-##### International Standards for Surface Texture
-- https://guide.digitalsurf.com/en/guide-filtration-techniques.html
-
-
 ##### Research and Development
 - This tool could likley be used in fast pass/fail quality inscpections of textured surfaces. 
 - To compensate for lighting conditions and other external factors which may effect the surface image, we are currently integrating various filtering options which can be modifed by the user in realtime. The new versions of the application also displays a comparision of the raw and filiterd images, in addition to there polar plots for comparison.
 - Although a model can be trained to detect surface defects, the question remains on wether there is enough information stored in the polar plot for a classifer to have the ability to regenerate what the captured surface looks like using only information from the polarplot.
+
+##### Refrences 
+- Polar plots for surface characterization and defect detection https://coefs.uncc.edu/bamullan/files/2020/05/Farzad-defense_public.pdf
+- International Standards for Surface Texture https://guide.digitalsurf.com/en/guide-filtration-techniques.html
+
+
 
 
 
