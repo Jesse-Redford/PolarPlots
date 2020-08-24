@@ -5,8 +5,11 @@ This project is in Joint effort with Dr.Mullany from the Mechanical Engineering 
 The scope of the project is to develop a method for characterizing material surfaces and provide a stastitical measure for estimating surface defects and quality using digital imagining. The repository includes beta versions of the desktop app which can be run on any windows machine with a camera. In addition we offer a library of modules that can be used to develop, modify, and integrate polar plotting into specific applications. 
 
 #### Contributors
-- Jesse Redford
-- Bridgit Mullany
+- Jesse Redford, Bridgit Mullany
+
+#### Requirments
+- Desktop application - windows OS and Camera 
+- API - pip install requirments.txt
 
 ### Download Beta Versions of PolarPlot Windows Application 
 - PolarPlot-v0.exe - basic version of app, capture images from camera stream and generates polar plot
