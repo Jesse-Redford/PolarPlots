@@ -13,7 +13,7 @@ The scope of the project is to develop a method for characterizing material surf
 
 ##### PolarPlot Apps for Windows (requires windows OS and Camera)
 - PolarPlot-v0.exe (avaliable) - basic version of app, capture images from camera stream and generates polar plot
-- PolarPlot-v1.exe (avaliable) - includes realtime filter options, livestream comparision, and ability to take screen shots
+-- PolarPlot-v1.exe (avaliable) - includes realtime filter options, livestream comparision, and ability to take screen shots
 - PolarPlot-v3.exe (in development) - integrates FFT filter options for removing low freqency content from image surface 
 - PolarPlot-v4.exe (in development) - allows for time series processing for rolling opperations
 
