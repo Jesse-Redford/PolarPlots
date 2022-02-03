@@ -3,4 +3,4 @@ numpy
 opencv-python-headless
 pandas
 matplotlib
-PIL
+Pillow
