@@ -4,13 +4,15 @@ import cv2
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib as mpl
-mpl.rcParams['text.color'] = 'white'
+mpl.rcParams['text.color'] = 'black' #''white'
 mpl.rcParams['image.cmap'] = 'jet'
-mpl.rcParams['xtick.color'] ='white'
-mpl.rcParams['ytick.color'] ='white'
+mpl.rcParams['xtick.color'] =  'black' #'white'
+mpl.rcParams['ytick.color'] =  'black' #'white'
 mpl.rcParams['font.family'] = 'serif'
 plt.rcParams['figure.facecolor'] = 'white' #'black'
-
+plt.rcParams.update({'font.size': 22})
+import PIL
+#from PIL import Image, ImageOps
 
 def level_surface(Y):
     m, m = Y.shape
@@ -110,7 +112,7 @@ class polarplot:
         return parameters_name_value
 
     def plot(self,z):
-        fig, ax = plt.subplots(subplot_kw={'projection': 'polar'},figsize=(20, 10))
+        fig, ax = plt.subplots(subplot_kw={'projection': 'polar'},figsize=(20, 20))
         ax.set_theta_zero_location("N")
 
         self.thetas = np.linspace(0, ((2 * 180) - 1) * np.pi / 180, 360) #np.arange(0, 360, 1)
@@ -160,15 +162,15 @@ class polarplot:
 
 
         plt.polar(T, MEAN_RADIUS, color='olive', linestyle='--', alpha=.75, linewidth=1,
-                  label='r_mean:' + ' ' + str(self.radii.mean()))
+                  label='r_mean:' + ' ' + "{:.2f}".format(self.radii.mean()))
 
         plt.polar(T, MIN_RADIUS, color='black', linestyle='--', alpha=.75, linewidth=1,
-                  label='Min Radius:' + ' ' + str(self.radii.min()))
+                  label='Min Radius:' + ' ' + "{:.2f}".format(self.radii.min()))
         plt.polar(T, MAX_RADIUS, color='black', linestyle='-.', alpha=.75, linewidth=1,
-                  label='Max Radius' + ' ' + str(self.radii.max))
+                  label='Max Radius' + ' ' + "{:.2f}".format(self.radii.max()))
 
         plt.fill_between(T, NEG_STD_RADIUS, POS_STD_RADIUS, facecolor='darkgreen', edgecolor='black', interpolate=True,
-                         alpha=.25, label='mean+-std' + ' ' + str(self.radii.mean()) + '+-' + ' ' + str(self.radii.std()))
+                         alpha=.25, label="{:.2f}".format(self.radii.mean()) + r'$\mu$' +  r'$\pm$' + "{:.2f}".format(self.radii.std()) +r'$\sigma$' ) #+ ' ' + str(self.radii.mean()) + '+-' + ' ' + str(self.radii.std()))
 
 
         plt.fill_between(T, ZERO_BOUND, NEG_STD_RADIUS, facecolor='black', alpha=.125)
@@ -188,7 +190,7 @@ class polarplot:
         plt.fill_between(T, LOBAL_LOWER_LIMIT, LOBAL_UPPER_LIMIT, where=self.radii < MEAN_RADIUS, facecolor='black',
                          alpha=.5)
 
-        leg = plt.legend(bbox_to_anchor=(1.125, -.065), ncol=4, fancybox=True, shadow=True, prop={'size': 6},
+        leg = plt.legend(bbox_to_anchor=(1.125, -.065), ncol=3, fancybox=True, shadow=True, prop={'size': 30},
                          framealpha=.5)
 
         for text in leg.get_texts():
@@ -208,33 +210,32 @@ class polarplot:
         return fig
 
 
-import PIL
-from PIL import Image, ImageOps
 
 st.title('Polar Plots')
 pp = polarplot()
 uploaded_file = img= st.file_uploader("Upload Files", type=['png', 'jpeg', 'jpg', 'bmp', 'tif'])
-image = Image.open(uploaded_file)
-
-image = ImageOps.grayscale(image)
-image = np.asarray(image).astype('uint8')
-print(image.shape)
-m,n = image.shape
-image = np.resize(image,(np.min([m,n]),np.min([m,n])))
 
 
-col1,col2 = st.columns(2)
-col1.header('Surface Image')
-col2.header('PolarPlot')
-col1.image(image)
+if uploaded_file is not None:
+    image = PIL.Image.open(uploaded_file)
+    image = PIL.ImageOps.grayscale(image)
+    image = np.asarray(image).astype('uint8')
+    m,n = image.shape
+    image = cv2.resize(image,(np.min([m,n]),np.min([m,n])))
+
+    #lower_thresh,upper_thresh = st.slider( 'Select a range of values', 0, 255, (0, 255))
+    #ret, image = cv2.threshold(image, lower_thresh,upper_thresh, cv2.THRESH_BINARY +cv2.THRESH_OTSU)
 
 
+    col1,col2 = st.columns(2)
 
-#img = cv2.imread(uploaded_file, cv2.IMREAD_GRAYSCALE)
-col2.pyplot(pp.plot(image))
-col2.dataframe(pd.DataFrame(pp.features(image)))
+    col1.header('Surface Image')
+    col1.image(image)
 
-
+    col2.header('PolarPlot')
+    # image = level_surface(image)
+    col2.pyplot(pp.plot(image))
+    col2.dataframe(pd.DataFrame(pp.features(image)))
 
 
 #if __name__ == '__main__':
