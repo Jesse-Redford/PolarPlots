@@ -221,14 +221,20 @@ if uploaded_file is not None:
     m,n = image.shape
     image = cv2.resize(image,(np.min([m,n]),np.min([m,n])))
 
+    surface_image = np.copy(image)
+    scan_area = int(round(len(image) / np.sqrt(2) / 2))
+    center = image.shape[0]/2
+    top_left = int(center - scan_area)
+    bottom_right = int(center +scan_area)
+    cv2.rectangle(surface_image, (top_left,top_left), (bottom_right,bottom_right),color=0, thickness=10)
+
     #lower_thresh,upper_thresh = st.slider( 'Select a range of values', 0, 255, (0, 255))
     #ret, image = cv2.threshold(image, lower_thresh,upper_thresh, cv2.THRESH_BINARY +cv2.THRESH_OTSU)
-
 
     col1,col2 = st.columns(2)
 
     col1.header('Surface Image')
-    col1.image(image)
+    col1.image(surface_image)
 
     col2.header('PolarPlot')
     # image = level_surface(image)
