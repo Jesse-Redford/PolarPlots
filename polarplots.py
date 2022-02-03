@@ -205,7 +205,7 @@ class polarplot:
         # plt.yticks([np.min(self.radii),np.mean(self.radii)-np.std(self.radii),np.mean(self.radii),np.mean(self.radii)+np.std(self.radii),np.max(self.radii)])
 
         plt.grid(linewidth=1)
-        plt.show()
+        #plt.show()
 
         return fig
 
