@@ -237,8 +237,8 @@ col2.dataframe(pd.DataFrame(pp.features(image)))
 
 
 
-if __name__ == '__main__':
-    print('PolarPlot')
-    pp = polarplot()
-    print('Number of Parameters', len(pp.parameters))
-    print(pp.plot(np.random.randint(-255, 255, (100, 100))))
+#if __name__ == '__main__':
+#    print('PolarPlot')
+#    pp = polarplot()
+#    print('Number of Parameters', len(pp.parameters))
+#    print(pp.plot(np.random.randint(-255, 255, (100, 100))))
