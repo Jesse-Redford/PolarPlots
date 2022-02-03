@@ -32,9 +32,7 @@ class polarplot:
         self.parameters = ["rmin","rmax","rmean","rstd", "rsum","rmin_theta","rmax_theta","num_lobes"]
 
     def compute(self,z):
-        surface = z
-        primary_surface = surface  # gaussian_filter(surface, sigma=.2)
-        surface = primary_surface - np.mean(surface)
+        surface = level_surface(z) #z - np.mean(z)
         rq_columns = np.zeros((180, (int(round(len(surface) / np.sqrt(2) / 2))) * 2))
         # Rotate surface through 0 to 180 degrees and record std
         for theta in np.arange(0, 180, 1):
